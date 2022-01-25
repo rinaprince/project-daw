@@ -103,9 +103,20 @@ header > img{
 
 /* Section for the formulary */
 
-.formylary{
-    text-align: center;
+/*.formulary{
+
+}*/
+
+/* Section for the unnordered lists */
+
+ul > li{
     list-style: none;
+}
+
+/* Section for the aside at Characters */
+
+aside{
+    margin: right;
 }
 
 /*Section to set the footer */
