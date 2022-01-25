@@ -22,7 +22,7 @@ body{
     margin: 100px;
 }
 
-/* Section for the title of the actual page and its font */
+/* Section for the titles */
 
 h1{
     text-align: center;
@@ -30,10 +30,12 @@ h1{
     font-family: "Lato", sans-serif;
 }
 
-/* Section for the secondary titles */
-
 h2{
     text-align: center;
+}
+
+h3{
+    display: block;
 }
 
 
@@ -115,8 +117,13 @@ ul > li{
 
 /* Section for the aside at Characters */
 
-aside{
-    margin: right;
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list > aside{
+    flex: 1;
 }
 
 /*Section to set the footer */
