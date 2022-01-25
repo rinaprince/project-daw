@@ -1,0 +1,118 @@
+/* Marina Checa Cabanilles */
+
+
+/* Section to set the fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tinos&display=swap');
+
+/* Section to set the box */
+
+*{
+    box-sizing: border-box;
+}
+
+/* Section for the background and its font, plus the box */
+
+body{
+    background-color: rgb(177, 159, 197);
+    padding: 30px;
+    font-family: "Tinos", serif;
+    border: 15px solid rgb(65, 67, 201);
+    padding: 50px;
+    margin: 100px;
+}
+
+/* Section for the title of the actual page and its font */
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+/* Section for the secondary titles */
+
+h2{
+    text-align: center;
+}
+
+
+/* Section to set the navigation bar */
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff3a9c
+}
+
+nav ul li{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px;
+  
+}
+
+.alone{
+    display: flex;
+    padding: 8px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+/* Section for the general images */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section for the images of the index */
+
+header > img{
+    display:block;
+    margin: auto;
+}
+
+.one > img{
+    display:block;
+    margin: auto;
+}
+
+/* Section for the images of the manga and anime */
+
+.photo > img{
+    float: right;
+    margin: 20px;
+    padding: 5px;
+}
+
+.photo_two > img{
+    float: right;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+/* Section for the formulary */
+
+.formylary{
+    text-align: center;
+    list-style: none;
+}
+
+/*Section to set the footer */
+
+footer{
+    background-color: rgb(247, 157, 209);
+    padding: 30px;
+    padding: 50px;
+    margin-top: 20px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fushigi Yûgi's World</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="PHOTOS/Fushigi_Yuugi_logo_1.png" width="400" height="300" alt="Fushigi_Yuugi_logo">
+        <h1>Introduction</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <span class="alone">Introduction</span>
+            </li>
+            <li>
+                <a href="ANIME_AND_MANGA.html">Anime and manga</a>
+            </li>
+            <li>
+                <a href="CHARACTERS.html">Principal characters</a>
+            </li>
+            <li>
+                <a href="CONSTELLATIONS_AND_WARRIORS.html">Constellations and warriors</a>
+            </li>
+            <li>
+                <a href="NOVELS.html">Novels</a>
+            </li>
+            <li>
+                <a href="GALLERY.html
+                ">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="articles">
+        <article class="one">
+            <h2>Fushigi Yûgi's plot</h2>
+            <img src="PHOTOS/Party_Genbu_Suzaku.jpg" alt="Party_Genbu_Suzaku" width="400" height="300">
+            <p>The series describes the various trials of <strong>Miaka Yuki</strong> and <strong>Yui Hongo</strong>,
+                two middle-school students. </p>
+
+            <p>While at
+                the library one day, Miaka and Yui encounter a strange book known as <em>The Universe of the Four
+                    Gods</em>.
+                Reading this book transports them into the novel's universe in ancient China. Yui is transported back to
+                the real world almost immediately, but Miaka finds herself the<em> Priestess of Suzaku</em>. Miaka is
+                destined to
+                gather the seven <em>Celestial Warriors</em> of the god <strong>Suzaku</strong> in order to summon
+                Suzaku and obtain three wishes. </p>
+
+            <p>She falls in love with the Celestial Warrior <strong>Tamahome</strong>, who eventually reciprocates and
+                Miaka's desire to
+                use a wish to enter the high school of her choice begins to shift towards finding a way to be with
+                Tamahome. </p>
+
+            <p>Yui is also drawn into the book when she tries to help Miaka to come back to the real world;
+                becoming the <em>Priestess of Seiryuu</em>, working against Miaka out of jealousy over Tamahome and
+                revenge for
+                the humiliation and pain she had suffered when she first came into the book's world.</p>
+        </article>
+    </main>
+
+    <section class="formulary">
+        <h2>Answer this formulary, please.</h2>
+        <p>This is for me to know more about my readers.</p>
+        <p>Required fields are followed by <abbr title="required">*</abbr>.</p>
+        <form>
+            <fieldset>
+                <legend>Name</legend>
+                <p>
+                    <label for="username">
+                        <span>Username: </span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="username" name="name">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Genre</legend>
+                <ul>
+                    <li>
+                        <label for="genre_1">
+                            <input type="radio" id="genre_1" name="genre" value="F">
+                            Female
+                        </label>
+                    </li>
+                    <li>
+                        <label for="genre_2">
+                            <input type="radio" id="genre_2" name="genre" value="M">
+                            Male
+                        </label>
+                    </li>
+                    <li>
+                        <label for="genre_3">
+                            <input type="radio" id="genre_3" name="genre" value="NB">
+                            No binary
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Favourite God</legend>
+                <p>
+                    <label for="god">
+                        <span>Gods:</span>
+                    </label>
+                    <select id="god" name="favourite">
+                        <option value="fenix">Suzaku</option>
+                        <option value="snake">Seiryuu</option>
+                        <option value="turtle">Genbu</option>
+                        <option value="tiger">Byakko</option>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Favourite Priestess</legend>
+                <ul>
+                    <li>
+                        <label for="priestess_1">
+                            <input type="checkbox" id="priestess_1" name="priestess" value="MY">
+                            Miaka Yuki
+                        </label>
+                    </li>
+                    <li>
+                        <label for="priestess_2">
+                            <input type="checkbox" id="priestess_2" name="priestess" value="YH">
+                            Yui Hongo
+                        </label>
+                    </li>
+                    <li>
+                        <label for="priestess_3">
+                            <input type="checkbox" id="priestess_3" name="priestess" value="TO">
+                            Takiko Okuda
+                        </label>
+                    </li>
+                    <li>
+                        <label for="priestess_4">
+                            <input type="checkbox" id="priestess_4" name="priestess" value="SO">
+                            Suzuno Osugi
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Comments</legend>
+                <p>
+                    <textarea id="comments" name="comments" rows="2" cols="30"></textarea>
+                </p>
+            </fieldset>
+            <section>
+                <button type="submit">Send</button>
+                <button type="submit">Reset</button>
+            </section>
+        </form>
+    </section>
+
+    <footer>
+        <p>©Copyright 2021 by Marina Checa. All rights reversed.</p>
+    </footer>
+</body>
+
+</html>
