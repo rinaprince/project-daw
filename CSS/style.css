@@ -13,6 +13,10 @@
 
 /* Section for the background and its font, plus the box */
 
+html{
+    background-image: url(../PHOTOS/fondo_6.jpg);
+}
+
 body{
     background-color: rgb(177, 159, 197);
     padding: 30px;
@@ -38,6 +42,13 @@ h3{
     display: block;
 }
 
+.list h2{
+    text-align: center;
+}
+
+.list h3{
+    text-align: center;
+}
 
 /* Section to set the navigation bar */
 
@@ -60,7 +71,11 @@ a{
   text-decoration: none;
   text-transform: uppercase;
   padding: 8px;
-  
+  color: black;
+}
+
+nav ul li a:hover{
+    background-color: rgb(109, 0, 64);
 }
 
 .alone{
@@ -68,6 +83,7 @@ a{
     padding: 8px;
     text-transform: uppercase;
     align-items: center;
+    background-color: rgb(221, 151, 192);
 }
 
 /* Section for the general images */
@@ -103,12 +119,6 @@ header > img{
     padding: 5px;
 }
 
-/* Section for the formulary */
-
-/*.formulary{
-
-}*/
-
 /* Section for the unnordered lists */
 
 ul > li{
@@ -123,7 +133,92 @@ ul > li{
 }
 
 .list > aside{
-    flex: 1;
+    flex: 1 25%;
+    max-width: 25%;
+    text-align: center;
+}
+
+.list > article{
+    flex: 2 75%;
+    max-width: 75%;
+}
+
+aside img{
+    margin-top: 150px;
+    margin-bottom: 5px;
+    border-image-width: 5px;
+    border: 2px solid black;
+}
+
+.tasuki{
+    margin-top: 350px;
+}
+
+.nakago{
+    margin-top: 300px;
+}
+
+/* Section for the tables */
+
+table, th, td{
+    border:  1px solid black;
+    border-collapse: collapse;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex table{
+    margin: 10px;
+}
+
+.flex table tr td:nth-child(2){
+    text-align: center;
+}
+
+/* Section to set the color of the principal titles on the tables */
+
+.title_color_r{
+    color: darkred;
+}
+
+.title_color_b{
+    color: darkblue;
+}
+
+.title_color_y{
+    color: rgb(131, 78, 0);
+}
+
+.title_color_g{
+    color: rgb(10, 88, 10);
+}
+
+.color_r{
+    color: darkred;
+    margin-bottom: 5px;
+}
+
+.color_b{
+    color: darkblue;
+    margin-bottom: 5px;
+}
+
+.color_y{
+    color:rgb(131, 78, 0);
+    margin-bottom: 5px;
+}
+
+.color_g{
+    color: rgb(10, 88, 10);
+    margin-bottom: 5px;
+}
+
+/* Section to set the color's titles on novel's page */
+
+.colors h3{
+    color: rgb(9, 41, 129);
 }
 
 /*Section to set the footer */
