@@ -221,6 +221,10 @@ table, th, td{
     color: rgb(9, 41, 129);
 }
 
+.colors a{
+    color: rgb(59, 2, 36);
+}
+
 /*Section to set the footer */
 
 footer{
