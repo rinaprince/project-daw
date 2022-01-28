@@ -158,6 +158,36 @@ aside img{
     margin-top: 300px;
 }
 
+/* Section to set the colors of the characters */
+
+.mia{
+    color: darkred;
+}
+
+.yui{
+    color: darkblue;
+}
+
+.tama{
+    color: darkred;
+}
+
+.hoto{
+    color: darkred;
+}
+
+.nuri{
+    color: darkred;
+}
+
+.tasu{
+    color: darkred;
+}
+
+.nak{
+    color: darkblue;
+}
+
 /* Section for the tables */
 
 table, th, td{
