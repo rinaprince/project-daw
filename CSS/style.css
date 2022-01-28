@@ -227,6 +227,11 @@ table, th, td{
 
 /* Section for the videos */
 
+.videos_title{
+    color: rgb(9, 41, 129);
+    text-align: center;
+}
+
 .videos_one{
     display: flex;
     flex-wrap: wrap;
