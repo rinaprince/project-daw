@@ -225,6 +225,56 @@ table, th, td{
     color: rgb(59, 2, 36);
 }
 
+/* Section for the videos */
+
+.videos_one{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videos_one > iframe{
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.videos_two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videos_two > iframe{
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.videos_three{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videos_three > iframe{
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.videos_four{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videos_four{
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 20px;
+    padding: 15px;
+}
+
 /*Section to set the footer */
 
 footer{
