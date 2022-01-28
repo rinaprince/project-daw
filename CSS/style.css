@@ -249,6 +249,7 @@ table, th, td{
 
 .colors h3{
     color: rgb(9, 41, 129);
+    text-align: center;
 }
 
 .colors a{
@@ -308,6 +309,63 @@ table, th, td{
     max-width: 100%;
     margin-left: 20px;
     padding: 15px;
+}
+
+/* Section to order the images of the gallery */
+
+.section_one{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_one > img{
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.section_two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_two > img{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.section_three{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_three > img{
+    margin-left: 55px;
+    padding: 5px;
+}
+
+.section_four{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_four > img{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.section_five{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_five > img{
+    margin-left: 55px;
+    padding: 5px;
+}
+
+.section_six > img{
+    display:block;
+    margin: auto;
 }
 
 /*Section to set the footer */
