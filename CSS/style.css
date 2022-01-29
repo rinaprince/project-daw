@@ -150,6 +150,10 @@ aside img{
     border: 2px solid black;
 }
 
+.nuriko{
+    margin-top: 350px;
+}
+
 .tasuki{
     margin-top: 350px;
 }
@@ -366,6 +370,13 @@ table, th, td{
 .section_six > img{
     display:block;
     margin: auto;
+}
+
+/* Section for the titles at gallery page */
+
+.titles_change > h3{
+    text-align: center;
+    color: rgb(9, 41, 129);
 }
 
 /*Section to set the footer */
