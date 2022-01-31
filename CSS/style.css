@@ -277,6 +277,7 @@ table, th, td{
     max-width: 100%;
     margin-left: 20px;
     padding: 15px;
+    border: 5px solid rgb(247, 157, 209);
 }
 
 .videos_two{
@@ -289,6 +290,7 @@ table, th, td{
     max-width: 100%;
     margin-left: 20px;
     padding: 15px;
+    border: 5px solid rgb(247, 157, 209);
 }
 
 .videos_three{
@@ -301,6 +303,7 @@ table, th, td{
     max-width: 100%;
     margin-left: 20px;
     padding: 15px;
+    border: 5px solid rgb(247, 157, 209);
 }
 
 .videos_four{
@@ -308,11 +311,12 @@ table, th, td{
     flex-wrap: wrap;
 }
 
-.videos_four{
+.videos_four > iframe{
     justify-content: space-between;
     max-width: 100%;
     margin-left: 20px;
     padding: 15px;
+    border: 5px solid rgb(247, 157, 209);
 }
 
 /* Section to order the images of the gallery */
@@ -323,6 +327,7 @@ table, th, td{
 }
 
 .section_one > img{
+    max-width: 100%;
     margin-left: 50px;
     padding: 5px;
 }
@@ -333,6 +338,7 @@ table, th, td{
 }
 
 .section_two > img{
+    max-width: 100%;
     margin-left: 10px;
     padding: 5px;
 }
@@ -343,6 +349,7 @@ table, th, td{
 }
 
 .section_three > img{
+    max-width: 100%;
     margin-left: 55px;
     padding: 5px;
 }
@@ -353,6 +360,7 @@ table, th, td{
 }
 
 .section_four > img{
+    max-width: 100%;
     margin-left: 200px;
     padding: 5px;
 }
@@ -363,6 +371,7 @@ table, th, td{
 }
 
 .section_five > img{
+    max-width: 100%;
     margin-left: 55px;
     padding: 5px;
 }
@@ -377,6 +386,10 @@ table, th, td{
 .titles_change > h3{
     text-align: center;
     color: rgb(9, 41, 129);
+}
+
+.titles_change > p{
+    text-align: center;
 }
 
 /*Section to set the footer */
